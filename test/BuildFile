@@ -4,6 +4,6 @@
 <use name=FWCore/ParameterSet>
 
 <library file=HcalTBObjectDump.cc name=HcalTBObjectDump>
-  <flags SEAL_PLUGIN_NAME="HcalTBObjectDump">
+  <flags EDM_PLUGIN=1>
 </library>
 
